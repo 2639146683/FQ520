@@ -7,11 +7,11 @@ let clickCount = 0;  // 记录点击 No 的次数
 
 // No 按钮的文字变化
 const noTexts = [
-    "对不起，蕴宝，我知道错了", 
-    "蕴宝，我不惹你生气了", 
-    "求求蕴宝别生气了，求求了", 
-    "蕴宝不许选这个了", 
-    "蕴宝原谅我嘛，对不起"
+    "小福子，老何知错T^T", 
+    "小福子，老何再也不惹你生气了", 
+    "求求小福子别生气了，求求了", 
+    "小福子不许选这个了", 
+    "小福子原谅我嘛，对不起"
 ];
 
 // No 按钮点击事件
@@ -49,10 +49,11 @@ noButton.addEventListener("click", function() {
 yesButton.addEventListener("click", function() {
     document.body.innerHTML = `
         <div class="yes-screen">
-            <h1 class="yes-text">!!!我只爱蕴宝!! ( >᎑<)♡︎ᐝ</h1>
+            <h1 class="yes-text">!!!我只爱小福子!! ( >᎑<)♡︎ᐝ</h1>
             <img src="images/hug.png" alt="抱抱，贴贴" class="yes-image">
         </div>
     `;
 
     document.body.style.overflow = "hidden";
 });
+
