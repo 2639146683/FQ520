@@ -7,13 +7,13 @@ let clickCount = 0;  // 记录点击 No 的次数
 const name = "小福子";
 // No 按钮的文字变化
 const noTexts = [
-    "${name}，老何知错T^T", 
-    "${name}，老何再也不惹你生气了", 
-    "求求${name}别生气了，求求了", 
-    "${name}不许选这个了", 
-    "${name}原谅我嘛，对不起"
+    "小福子，老何知错T^T", 
+    "小福子，老何再也不惹你生气了", 
+    "求求小福子别生气了，求求了", 
+    "小福子不许选这个了", 
+    "小福子原谅我嘛，对不起"
 ];
-
+noButton.innerText = noTexts[0];
 // No 按钮点击事件
 noButton.addEventListener("click", function() {
     clickCount++;
@@ -56,5 +56,6 @@ yesButton.addEventListener("click", function() {
 
     document.body.style.overflow = "hidden";
 });
+
 
 
